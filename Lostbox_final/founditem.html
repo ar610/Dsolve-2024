@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <link rel="stylesheet" href="./style.css">
+ 
+</head>
+<body>
+    
+  <div class="container">
+    <h2>HURRAY !!!
+        SURAJ FOUND
+        YOUR LOST ITEM
+    </h2>
+    <h3>Contact: 478789852
+    </h3>
+    <h3 style="font-weight: 100;">
+        Message from Suraj: 
+    </h3>
+    <h3>Found your Key near Civil Canteen. Meet me at Civil Canteen at 4:30 pm</h3>
+    <h4 style="float:right"><a href="./homepage.html">Home</a></h4>
+  </div>
+  
+
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.10.0/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.10.0/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyCmqGja7v7ikeI2YFMiBcpm8HXnJyvjwmc",
+      authDomain: "lostboxweb.firebaseapp.com",
+      projectId: "lostboxweb",
+      storageBucket: "lostboxweb.appspot.com",
+      messagingSenderId: "679281247116",
+      appId: "1:679281247116:web:33333826b0666bf895cca9",
+      measurementId: "G-X7WN1SPJMV"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
+</body>
+</html>

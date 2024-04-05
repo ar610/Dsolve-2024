@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <link rel="stylesheet" href="./style.css">
+ 
+</head>
+<body>
+    
+  <div class="container">
+    <h2>Give details of your lost item
+    </h2>
+    <form action="" method="post" id="post_form">
+        <label for="name">Name of Item</label>
+      <input type="text" id="name" name="name" placeholder="Enter name">
+
+      <label for="locations">Possible locations</label>
+      <input type="text" id="loc" name="location" placeholder="Enter">
+      <label for="username">Describe</label>
+      <input type="text" id="description" name="description" placeholder="Describe about your lost item">
+
+      <input type="submit" value="Send">
+    </form>
+  </div>
+  
+
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.10.0/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.10.0/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyCmqGja7v7ikeI2YFMiBcpm8HXnJyvjwmc",
+      authDomain: "lostboxweb.firebaseapp.com",
+      projectId: "lostboxweb",
+      storageBucket: "lostboxweb.appspot.com",
+      messagingSenderId: "679281247116",
+      appId: "1:679281247116:web:33333826b0666bf895cca9",
+      measurementId: "G-X7WN1SPJMV"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
+</body>
+</html>
