@@ -4,32 +4,35 @@
 
 
 ## Team Name
-Name  
+CodeBenders 
 
 # Team Member
-Member 1 Github Link
+https://github.com/ar610
 
 MEmber 2 Github Link
 
 ## Idea
-Breif Idea in two three sentences 
+Our Lost and Found App connects individuals by allowing them to post pictures, descriptions, and locations of lost items. Utilizing real-time alerts, our platform notifies nearby users, enabling swift assistance in locating lost possessions. Users can easily navigate the app to report lost items and provide essential details, facilitating efficient matching with found items. Through seamless communication and community engagement, our app fosters collaboration among users, increasing the likelihood of successful reunions. By prioritizing simplicity and effectiveness, our platform aims to alleviate the stress and frustration associated with losing valuable belongings. Join us in creating a supportive network where individuals can rely on each other to retrieve their lost items and restore peace of mind.
 
 ## Features 
-1. 
+1. Simple to implement
+2. Good user interface
 
 ## Link to product walkthrough
-[link to video](Link Here)
+https://drive.google.com/drive/folders/1c4HXnZtNcnn54dOCKxCTQQVzZTiVxZLT?usp=sharing
 
    
 ## Libraries used
-Library Name - Version
+No libraries
 
 
 ## How to configure
-Instructions for setting up project
+Our final project is in the Lastbox_final folder
+Flutter flow is also used. But all the code is in a  single text file due to the free version usage. 
 
 ## How to Run
-Instructions for running
+run index.html in the Lastbox_final folder
 
 ## How to contribute ? 
-Features to implement 
+More features need to be implemented. Database and backend integration is not done
+
